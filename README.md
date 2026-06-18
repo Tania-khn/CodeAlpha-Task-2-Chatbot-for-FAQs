@@ -1,4 +1,6 @@
- HEAD
+# CodeAlpha-Task-2-Chatbot-for-FAQs
+**FAQ Chatbot** is an AI-powered assistant designed to answer frequently asked questions instantly and accurately. It helps users find information quickly, improving customer support and enhancing the overall user experience.
+
 # CloudTask FAQ Assistant
 
 An NLP-powered FAQ chatbot built with **Next.js 16 + TypeScript + Tailwind CSS 4 + shadcn/ui**. The chatbot uses a fully self-contained NLP pipeline (Porter stemmer + TF-IDF + cosine similarity) — **zero external NLP dependencies** (no NLTK, no spaCy, no Python).
@@ -39,22 +41,7 @@ An NLP-powered FAQ chatbot built with **Next.js 16 + TypeScript + Tailwind CSS 4
 
 ## Setup & Run in VSCode
 
-### 1. Unzip the project
-
-```bash
-unzip cloudtask-faq-chatbot.zip -d cloudtask-faq-chatbot
-cd cloudtask-faq-chatbot
-```
-
-### 2. Open in VSCode
-
-```bash
-code .
-```
-
-(Or: open VSCode → `File` → `Open Folder` → select the unzipped folder.)
-
-### 3. Install dependencies
+### 1. Install dependencies
 
 Using **npm** (recommended for first-time setup):
 
@@ -74,7 +61,7 @@ Or using **pnpm**:
 pnpm install
 ```
 
-### 4. Start the dev server
+### 2. Start the dev server
 
 ```bash
 npm run dev
@@ -88,7 +75,7 @@ You should see:
 ✓ Ready in 245ms
 ```
 
-### 5. Open in browser
+### 3. Open in browser
 
 Visit **http://localhost:3000** — the landing page loads with the chatbot below.
 
@@ -171,34 +158,6 @@ The TF-IDF vectorizer retrains automatically on next server start.
 | `npm run start`   | Run the production build                |
 | `npm run lint`    | Run ESLint                              |
 
-## Deploying
-
-### Vercel (recommended, 1-click)
-
-1. Push to GitHub (see instructions below)
-2. Visit [vercel.com/new](https://vercel.com/new)
-3. Import the repo — Vercel auto-detects Next.js
-4. Click **Deploy** — done in ~60 seconds
-
-### Other platforms
-
-The app is a standard Next.js 16 project — works on Netlify, Cloudflare Pages, Render, Railway, AWS Amplify, etc. Check the [Next.js deployment docs](https://nextjs.org/docs/app/building-your-application/deploying).
-
-## Troubleshooting
-
-**`npm install` hangs or fails**
-- Try `npm install --registry=https://registry.npmjs.org` to use the official registry
-- Or switch to bun: `curl -fsSL https://bun.sh/install | bash && bun install`
-
-**Port 3000 already in use**
-- Run `PORT=3001 npm run dev` (then visit `http://localhost:3001`)
-
-**Page is blank / hydration error**
-- Hard refresh: Ctrl+Shift+R (or Cmd+Shift+R on Mac)
-- Delete `.next/` folder and restart: `rm -rf .next && npm run dev`
-
-**Theme toggle doesn't persist**
-- Check that cookies/localStorage aren't blocked by your browser
 
 ## License
 
@@ -210,6 +169,4 @@ MIT — free to use, modify, and distribute. Built as a demo by the Z.ai team.
 - UI components: [shadcn/ui](https://ui.shadcn.com/) (New York style)
 - Icons: [lucide-react](https://lucide.dev/)
 - Built with [Next.js 16](https://nextjs.org/)
-# CodeAlpha-Task-2-Chatbot-for-FAQs
-**FAQ Chatbot** is an AI-powered assistant designed to answer frequently asked questions instantly and accurately. It helps users find information quickly, improving customer support and enhancing the overall user experience.
 
