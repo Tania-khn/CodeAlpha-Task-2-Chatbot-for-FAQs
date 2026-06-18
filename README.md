@@ -3,8 +3,6 @@
 
 An NLP-powered FAQ chatbot built with **Next.js 16 + TypeScript + Tailwind CSS 4 + shadcn/ui**. The chatbot uses a fully self-contained NLP pipeline (Porter stemmer + TF-IDF + cosine similarity) — **zero external NLP dependencies** (no NLTK, no spaCy, no Python).
 
-![CloudTask FAQ Assistant](./public/logo.svg)
-
 ## Features
 
 - **Pure-TS NLP pipeline**: tokenizer, stopword removal, Porter stemmer, TF-IDF vectorizer, cosine similarity — all hand-rolled in `src/lib/nlp/`
