@@ -161,7 +161,7 @@ The TF-IDF vectorizer retrains automatically on next server start.
 
 ## License
 
-MIT — free to use, modify, and distribute. Built as a demo by the Z.ai team.
+this project is for intership purpose. Gaining hand-on practice in real AI- WORLD of Artificial Intelligence.
 
 ## Credits
 
