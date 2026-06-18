@@ -1,3 +1,4 @@
+ HEAD
 # CloudTask FAQ Assistant
 
 An NLP-powered FAQ chatbot built with **Next.js 16 + TypeScript + Tailwind CSS 4 + shadcn/ui**. The chatbot uses a fully self-contained NLP pipeline (Porter stemmer + TF-IDF + cosine similarity) — **zero external NLP dependencies** (no NLTK, no spaCy, no Python).
@@ -211,3 +212,6 @@ MIT — free to use, modify, and distribute. Built as a demo by the Z.ai team.
 - UI components: [shadcn/ui](https://ui.shadcn.com/) (New York style)
 - Icons: [lucide-react](https://lucide.dev/)
 - Built with [Next.js 16](https://nextjs.org/)
+# CodeAlpha-Task-2-Chatbot-for-FAQs
+**FAQ Chatbot** is an AI-powered assistant designed to answer frequently asked questions instantly and accurately. It helps users find information quickly, improving customer support and enhancing the overall user experience.
+
